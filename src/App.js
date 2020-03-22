@@ -16,6 +16,55 @@ export default function App() {
       <div className="sr-root">
         <div className="sr-main">
           <h1>Art pls!</h1>
+          <h4>Support artists with mini-commissions</h4>
+
+          <br />
+
+          <h3>How it works</h3>
+          <h4>1. Enter your email</h4>
+          <h4>2. Tell us what you'd like</h4>
+          <h4>3. Pay £1</h4>
+          <h4>
+            4. One of our artists will dedicate 30mins to your mini-commision
+          </h4>
+          <h4>
+            5. They'll email you your picture when it's done{" "}
+            <span role="img" aria-label="boom">
+              💥
+            </span>
+          </h4>
+          <h4>
+            6. If you want to buy a real copy, you'll be able to contact the
+            artist
+          </h4>
+
+          <br />
+
+          <h3>So, what'll it be?</h3>
+
+          <div className="sr-combo-inputs">
+            <div className="sr-combo-inputs-row">
+              <input
+                type="text"
+                id="email"
+                name="email"
+                placeholder="dotty@spotty.com"
+                autoComplete="cardholder"
+                className="sr-input"
+              />
+            </div>
+            <div className="sr-combo-inputs-row">
+              <input
+                type="text"
+                id="commission-description"
+                name="commission-description"
+                placeholder="I'd like a flying giraffe please"
+                autoComplete="cardholder"
+                className="sr-input"
+              />
+            </div>
+          </div>
+
           <Elements stripe={stripePromise}>
             <CheckoutForm />
           </Elements>

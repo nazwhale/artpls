@@ -100,15 +100,14 @@ export default function CheckoutForm() {
 
     return (
       <form onSubmit={handleSubmit}>
-        <h1>
+        <h3>
           {currency === "GBP" ? "£" : currency.toLocaleUpperCase()}{" "}
           {amount === 1
             ? "1"
             : amount.toLocaleString(navigator.language, {
                 minimumFractionDigits: 2
               })}{" "}
-        </h1>
-        <h4>Support artists with mini-commissions</h4>
+        </h3>
 
         <div className="sr-combo-inputs">
           <div className="sr-combo-inputs-row">

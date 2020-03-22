@@ -39,6 +39,11 @@ h1 {
   color: var(--headline-color);
   line-height: 30px;
 }
+h3 {
+  font-size: 21px;
+  color: var(--headline-color);
+  line-height: 30px;
+}
 h4 {
   font-weight: 500;
   font-size: 14px;

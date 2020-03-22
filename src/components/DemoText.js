@@ -6,8 +6,8 @@ export default function DemoText() {
     <div className="banner">
       <span>
         This site was set up to support artists who've been out of work due to
-        the coronavirus. Right now we're still getting set up, but you're
-        welcome to donate in the meantime. Every little is greatly appreciated{" "}
+        the coronavirus. Right now we're still getting set up, but you're still
+        welcome to donate. Every little is greatly appreciated{" "}
         <span role="img" aria-label="raised hands">
           🙌
         </span>
