@@ -41,8 +41,6 @@ export default function CheckoutForm() {
     ev.preventDefault();
     setProcessing(true);
 
-    console.log("🔐", clientSecret);
-
     // Step 3: Use clientSecret from PaymentIntent and the CardElement
     // to confirm payment with stripe.confirmCardPayment()
     const payload = await stripe.confirmCardPayment(clientSecret, {
