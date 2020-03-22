@@ -264,6 +264,10 @@ input[type="text"]::placeholder {
 .sr-combo-inputs > .sr-combo-inputs-row:first-child input:only-child {
   border-radius: var(--radius) var(--radius) 0 0;
 }
+.sr-combo-inputs > .sr-combo-inputs-row-2 {
+  border-radius: 0 0 var(--radius) var(--radius);
+  border-bottom: 1px solid var(--gray-border);
+}
 .sr-combo-inputs-row {
   width: 100%;
   display: flex;

@@ -98,7 +98,7 @@ export default function CheckoutForm() {
 
     return (
       <form onSubmit={handleSubmit}>
-        <h3>£1</h3>
+        <h3>£5</h3>
 
         <div className="sr-combo-inputs">
           <div className="sr-combo-inputs-row">
