@@ -24,9 +24,7 @@ export default function App() {
           <h4>1. Enter your email</h4>
           <h4>2. Tell us what you'd like</h4>
           <h4>3. Pay £5</h4>
-          <h4>
-            4. One of our artists will dedicate 30mins to your mini-commision
-          </h4>
+          <h4>4. We'll spend 30mins on your mini-commision</h4>
           <h4>
             5. They'll email you your picture when it's done{" "}
             <span role="img" aria-label="boom">
