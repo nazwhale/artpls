@@ -26,7 +26,7 @@ export default function App() {
           <h4>3. Pay £5</h4>
           <h4>4. We'll spend 30mins on your mini-commision</h4>
           <h4>
-            5. They'll email you your picture when it's done{" "}
+            5. We'll email you your picture when it's done{" "}
             <span role="img" aria-label="boom">
               💥
             </span>
